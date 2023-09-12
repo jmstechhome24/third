@@ -29,7 +29,7 @@ jobs:
       - name: check python version
         run: python --version 
       - name: check java version 
-        run: java version 
+        run: java --version 
       - name: check docker version
         run: docker -v
       - name: check terraform veresion
