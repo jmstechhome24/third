@@ -35,4 +35,4 @@ jobs:
       - name: check terraform veresion
         run: terraform -v
       - name: kubectl version
-        run: kubectl --version
+        run: kubectl version
